@@ -1,2 +1,91 @@
-{    "toJSON": true,    "dbInfo": [{        "name": "Model",        "uuid": ""    }],    "extraProperties": {        "version": "1",        "classes": {        },        "model": {            "scriptMode": "manual"
-        }    },    "dataClasses": []}
+{
+	"publishAsJSGlobal": true,
+	"toJSON": true,
+	"extraProperties": {
+		"version": "2",
+		"classes": {
+			"Photo": {
+				"panelColor": "#B8CCE4",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 460,
+						"Y": 48
+					}
+				}
+			}
+		},
+		"model": {
+			"scriptMode": "manual",
+			"workspaceLeft": 0,
+			"workspaceTop": 0,
+			"lastScriptLocation": {
+				"Photo": {
+					"method": "Photo/Photo-methods.js"
+				}
+			}
+		}
+	},
+	"dataClasses": [
+		{
+			"name": "Photo",
+			"className": "Photo",
+			"collectionName": "PhotoCollection",
+			"scope": "public",
+			"publishAsJSGlobal": true,
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "FirstName",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "LastName",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "maPhoto",
+					"kind": "storage",
+					"scope": "public",
+					"type": "image"
+				}
+			],
+			"methods": [
+				{
+					"name": "createNewPhoto",
+					"applyTo": "dataClass",
+					"scope": "public",
+					"from": "$mainModel.Photo.methods.createNewPhoto",
+					"userDefined": true
+				},
+				{
+					"name": "createNewPhoto2",
+					"applyTo": "entity",
+					"scope": "publicOnServer",
+					"from": "$mainModel.Photo.entityMethods.createNewPhoto2",
+					"userDefined": true
+				},
+				{
+					"name": "essai3",
+					"applyTo": "dataClass",
+					"scope": "publicOnServer",
+					"from": "$mainModel.Photo.methods.essai3",
+					"userDefined": true
+				}
+			]
+		}
+	]
+}

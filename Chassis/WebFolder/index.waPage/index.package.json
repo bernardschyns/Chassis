@@ -1,1 +1,109 @@
-﻿{	"name": "Chassis/index.waPage/index.html",	"version": "1.0.0",	"loadDependencies": [		{			"id": "default",			"type": "theme"		},		{			"id": "index.waPage/styles/index.css",			"path": "WEBFOLDER",			"type": "style"		},		{			"id": "application.css",			"path": "WEBFOLDER",			"type": "style"		}	]}
+{
+	"name": "Chassis/index.waPage/index.html",
+	"version": "1.0.0",
+	"loadDependencies": [
+		{
+			"id": "Desktop_Core",
+			"version": "1.0.0",
+			"type": "core"
+		},
+		{
+			"id": "Widget/container",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/fileUpload",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/label",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/button",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/dataGrid",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/image",
+			"type": "widget"
+		},
+		{
+			"id": "default",
+			"type": "theme"
+		},
+		{
+			"id": "index.waPage/styles/index.css",
+			"path": "WEBFOLDER",
+			"type": "style"
+		},
+		{
+			"id": "application.css",
+			"path": "WEBFOLDER",
+			"type": "style"
+		},
+		{
+			"id": "index.waPage/lib/wColorPicker.min.css",
+			"path": "WEBFOLDER",
+			"type": "style"
+		},
+		{
+			"id": "index.waPage/src/wPaint.css",
+			"path": "WEBFOLDER",
+			"type": "style"
+		},
+		{
+			"id": "index.waPage/lib/wColorPicker.min.js",
+			"path": "WEBFOLDER",
+			"type": "script"
+		},
+		{
+			"id": "index.waPage/src/wPaint.utils.js",
+			"path": "WEBFOLDER",
+			"type": "script"
+		},
+		{
+			"id": "index.waPage/src/wPaint.js",
+			"path": "WEBFOLDER",
+			"type": "script"
+		},
+		{
+			"id": "index.waPage/plugins/main/src/fillArea.min.js",
+			"path": "WEBFOLDER",
+			"type": "script"
+		},
+		{
+			"id": "index.waPage/plugins/main/src/wPaint.menu.main.js",
+			"path": "WEBFOLDER",
+			"type": "script"
+		},
+		{
+			"id": "index.waPage/plugins/text/src/wPaint.menu.text.js",
+			"path": "WEBFOLDER",
+			"type": "script"
+		},
+		{
+			"id": "index.waPage/plugins/shapes/src/wPaint.menu.main.shapes.js",
+			"path": "WEBFOLDER",
+			"type": "script"
+		},
+		{
+			"id": "index.waPage/plugins/file/src/wPaint.menu.main.file.js",
+			"path": "WEBFOLDER",
+			"type": "script"
+		},
+		{
+			"id": "index.waPage/plugins/wheelzoom/wheelzoom3.js",
+			"path": "WEBFOLDER",
+			"type": "script"
+		},
+		{
+			"id": "index.waPage/scripts/index.js",
+			"path": "WEBFOLDER",
+			"type": "script"
+		}
+	]
+}
